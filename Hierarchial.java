@@ -19,12 +19,12 @@ public class Hierarchial
     }
     private static void Nissan() 
     {
-		System.out.println( "\nPrivate Modifiers" );
+		System.out.println( "\nPrivate Modifier" );		//Private Modifier
 		System.out.println( "Car brand is Nissan" );
 	}
 }
 
-class Car 										//Parent Class
+class Car 								//Parent Class
 {
 	public void carBrand()
 	{
@@ -34,29 +34,29 @@ class Car 										//Parent Class
 
 class Audi extends Car							//SubClass
 {
-	public void audiBrand()  					//Method
+	public void audiBrand()  					
 	{
 		
-		carBrand();								//Calling Parent Class
-		System.out.println( "\nPublic Modifiers" );
+		carBrand();						//Calling Parent Class
+		System.out.println( "\nPublic Modifier" );		//Public Modifier
 		System.out.println( "Car brand is Audi" );
 	}
 }
 
 class Lexus extends Car
 {
-	protected void lexusBrand()  				//Method
+	protected void lexusBrand()  				
 	{
-		System.out.println( "\nProtected Modifiers" );
+		System.out.println( "\nProtected Modifier" );		//Protected Modifier
 		System.out.println( "Car brand is Lexus" );
 	}
 }
 
 class Masda extends Car
 {
-	void masdaBrand()  					//Method
+	void masdaBrand()  					
 	{
-		System.out.println( "\nDefault Modifiers" );
+		System.out.println( "\nDefault Modifier" );		//Default Modifier
 		System.out.println( "Car brand is Masda" );
 	}
 }
